@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/adivina.PNG'); /* Ajusta la ruta según la estructura de tus carpetas */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Cambia el color del texto a blanco para que sea visible sobre la imagen */
+}
+
+h1, p {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
